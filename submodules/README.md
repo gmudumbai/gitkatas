@@ -3,11 +3,17 @@
 Submodules are a way to embed other git repositories into your own, retaining a pointer to its `origin`.
 This allows you to grab source change directly, as well as _pushing_ them back.
 
-After running `. setup.sh` or `. ./setup.sh`, you'll be left in two repositories.
+## Setup
+
+1. Run `. setup.sh` (or `.\setup.ps1` in PowerShell)
+
+## Task
+
+After running `. setup.sh` or `. ./setup.sh`, you'll be left with two repositories inside the `exercises` folder.
+
 * A `product` repository
 * A `component` repository.
 
-# Task
 
 Go to the `product` repository.
 
@@ -28,7 +34,7 @@ Go to the `product` repository.
 
 1. Does `git status` or `git submodule status` tell you anything about this new commit?
 1. Go to the `include` path and `git pull` the latest version.
-1. Go to the `project` path. What is the status now in your product repository?
+1. Go to the `product` path. What is the status now in your product repository?
 1. Go to your `include` folder. Make a change and `push` it back to its origin.
 
 Go to the `exercise` directory. We will make a clone.

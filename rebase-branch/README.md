@@ -1,9 +1,7 @@
 # Git Kata: rebase branch
+
 ## Setup:
-In your terminal, run
-```
-$ ./setup.sh && cd exercise
-```
+1. Run `. setup.sh` (or `.\setup.ps1` in PowerShell)
 
 
 ## The task
@@ -22,5 +20,5 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 ## Useful commands
 - `git checkout <branch-name>`
 - `git rebase <branch-name>`
-- `git log --oneline --decorate --graph --all`
+- `git log --oneline --graph --all`
 - `git merge <branch-name>`
